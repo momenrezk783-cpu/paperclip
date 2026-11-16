@@ -547,8 +547,8 @@ importers:
         specifier: 1.0.88
         version: 1.0.88
       '@github/copilot-darwin-x64':
-        specifier: 1.0.88
-        version: 1.0.88
+        specifier: 1.0.111
+        version: 1.0.111
       '@github/copilot-linux-x64':
         specifier: 1.0.88
         version: 1.0.88
@@ -1123,8 +1123,8 @@ importers:
         specifier: 1.0.88
         version: 1.0.88
       '@github/copilot-darwin-x64':
-        specifier: 1.0.88
-        version: 1.0.88
+        specifier: 1.0.111
+        version: 1.0.111
       '@github/copilot-linux-x64':
         specifier: 1.0.88
         version: 1.0.88
@@ -2774,8 +2774,8 @@ packages:
     os: [darwin]
     hasBin: true
 
-  '@github/copilot-darwin-x64@1.0.88':
-    resolution: {integrity: sha512-GO5KwVR5vD1vNRe0jDDXFdpOHpS780ytVSRklk0DT6bK6HIpWXqbfnOasP9OZpPClaAYO4CShkGMhHv6vKRxaA==}
+  '@github/copilot-darwin-x64@1.0.111':
+    resolution: {integrity: sha512-OeWulUWK3z20BrU9RCTKoI/C2ku0o6TcdsNk0xzXa5U0aiWhl+zzrOIUG/I/rtjmm5yF6gfv1Kw9xxAXbidoKQ==}
     cpu: [x64]
     os: [darwin]
     hasBin: true
@@ -10994,7 +10994,7 @@ snapshots:
   '@github/copilot-darwin-arm64@1.0.88':
     optional: true
 
-  '@github/copilot-darwin-x64@1.0.88':
+  '@github/copilot-darwin-x64@1.0.111':
     optional: true
 
   '@github/copilot-linux-x64@1.0.88':
