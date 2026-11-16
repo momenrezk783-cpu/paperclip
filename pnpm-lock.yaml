@@ -519,8 +519,8 @@ importers:
         specifier: 1.9.0
         version: 1.9.0(zod@4.6.7)
       '@openai/codex':
-        specifier: 0.160.0
-        version: 0.160.0
+        specifier: 0.169.0
+        version: 0.169.0
       acpx:
         specifier: 0.22.0
         version: 0.22.0(patch_hash=7cirnxnu5r6knlf33oxlyqv52u)
@@ -3468,6 +3468,47 @@ packages:
 
   '@openai/codex@0.160.0-win32-x64':
     resolution: {integrity: sha512-/gCFcuOmGlQkgGivWCtY8BNEDixh70Pue0HZOk9S8bj2vUIE1GLD9zcNB/KqqDJmn0S+lIttauLpzQnw6HOCHA==}
+    engines: {node: '>=16'}
+    cpu: [x64]
+    os: [win32]
+
+  '@openai/codex@0.169.0':
+    resolution: {integrity: sha512-KhzYlkKPxoNssR8CEm45IjqnFWn7UtlF4CiD3tOJPea51xBs7MaHy0UQG9GSbCqk6Lrjn5QdJDV0QD1/FgWlGw==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+  '@openai/codex@0.169.0-darwin-arm64':
+    resolution: {integrity: sha512-5WsWFBbVP78D+6FvNo1MMVxLPZdmcoQlqVJFrF4qx/TmvneLnMQKtLyXkUo54XOTDfoYKpNouTJ/F7gTVA8FnQ==}
+    engines: {node: '>=16'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@openai/codex@0.169.0-darwin-x64':
+    resolution: {integrity: sha512-K1FKSsSLl9v3z5TeagBQXyQRDBIGB5Jncy5dxsRxwT3aaTqN3AI8VrCfoxBxKMOOU9O2QX1vg7WkBwNVth/s9A==}
+    engines: {node: '>=16'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@openai/codex@0.169.0-linux-arm64':
+    resolution: {integrity: sha512-NZ/DaQUpcQmxmqee7Z9uC1rzw3GhSbooawcaTe1LN5Yk+WlinUKGdTXJgClRT/9ogQEEM9TWxYzvxPfj5G/xFg==}
+    engines: {node: '>=16'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@openai/codex@0.169.0-linux-x64':
+    resolution: {integrity: sha512-o05NyAOCDygSPRo1yinzxvkRSdmsZyBD9E7mbpmjRanSfM8lypqWtQgEo4XfNkwhuCR2aFu8mlGOsQGFXVbVww==}
+    engines: {node: '>=16'}
+    cpu: [x64]
+    os: [linux]
+
+  '@openai/codex@0.169.0-win32-arm64':
+    resolution: {integrity: sha512-nTN9SpkacGohq60+I80R3t0R8Mhbnlt3OVYNahgAv1Gu77KFwhPc0vz9Ou/DAGDtYhKVWA/jiYXJXnlzkwb/JA==}
+    engines: {node: '>=16'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@openai/codex@0.169.0-win32-x64':
+    resolution: {integrity: sha512-nC+McFU8xRNL9tk3IhxcKdhcyOElwF/HhPO+gzSQCY7yjh3XdzSajX+MYWcHUVHWRHajfwn3/WgJYJK2wS+XWg==}
     engines: {node: '>=16'}
     cpu: [x64]
     os: [win32]
@@ -11824,6 +11865,33 @@ snapshots:
     optional: true
 
   '@openai/codex@0.160.0-win32-x64':
+    optional: true
+
+  '@openai/codex@0.169.0':
+    optionalDependencies:
+      '@openai/codex-darwin-arm64': '@openai/codex@0.169.0-darwin-arm64'
+      '@openai/codex-darwin-x64': '@openai/codex@0.169.0-darwin-x64'
+      '@openai/codex-linux-arm64': '@openai/codex@0.169.0-linux-arm64'
+      '@openai/codex-linux-x64': '@openai/codex@0.169.0-linux-x64'
+      '@openai/codex-win32-arm64': '@openai/codex@0.169.0-win32-arm64'
+      '@openai/codex-win32-x64': '@openai/codex@0.169.0-win32-x64'
+
+  '@openai/codex@0.169.0-darwin-arm64':
+    optional: true
+
+  '@openai/codex@0.169.0-darwin-x64':
+    optional: true
+
+  '@openai/codex@0.169.0-linux-arm64':
+    optional: true
+
+  '@openai/codex@0.169.0-linux-x64':
+    optional: true
+
+  '@openai/codex@0.169.0-win32-arm64':
+    optional: true
+
+  '@openai/codex@0.169.0-win32-x64':
     optional: true
 
   '@openclaw/fs-safe-darwin-arm64@0.27.2':
