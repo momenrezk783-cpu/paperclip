@@ -544,8 +544,8 @@ importers:
         version: 1.9.1
     optionalDependencies:
       '@github/copilot-darwin-arm64':
-        specifier: 1.0.88
-        version: 1.0.88
+        specifier: 1.0.114
+        version: 1.0.114
       '@github/copilot-darwin-x64':
         specifier: 1.0.88
         version: 1.0.88
@@ -1120,8 +1120,8 @@ importers:
         version: 4.6.7
     optionalDependencies:
       '@github/copilot-darwin-arm64':
-        specifier: 1.0.88
-        version: 1.0.88
+        specifier: 1.0.114
+        version: 1.0.114
       '@github/copilot-darwin-x64':
         specifier: 1.0.88
         version: 1.0.88
@@ -2768,8 +2768,8 @@ packages:
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
 
-  '@github/copilot-darwin-arm64@1.0.88':
-    resolution: {integrity: sha512-gt52dl+ja+G88RjLuSec59fA8C9HNfdGxKwwqE7eAIJXZYSKwKvuMy4B79WlCtlpnH/QKbs5Z9VsU0BTxe3EAg==}
+  '@github/copilot-darwin-arm64@1.0.114':
+    resolution: {integrity: sha512-Mw47DTwMNDG0bb4t1rVu7S+ekdThIGGitpG28/wGpACZ0lFhYnpNEoSJ7hHBM3oix4b/w6+ZcmxE9J9MngsR9Q==}
     cpu: [arm64]
     os: [darwin]
     hasBin: true
@@ -5084,6 +5084,7 @@ packages:
   '@sapphire/shapeshift@4.0.0':
     resolution: {integrity: sha512-d9dUmWVA7MMiKobL3VpLF8P2aeanRTu6ypG2OIaEv/ZHH/SUQ2iHOVyi5wAPjQ+HmnMuL0whK9ez8I/raWbtIg==}
     engines: {node: '>=v16'}
+    deprecated: Shapeshift was created when other validation libraries had significant limitations in performance and error reporting. Those advantages have diminished as libraries such as Zod have become faster and improved their error messages, while also gaining broader environment support, a larger community, and custom error printers.
 
   '@sapphire/snowflake@3.5.5':
     resolution: {integrity: sha512-xzvBr1Q1c4lCe7i6sRnrofxeO1QTP/LKQ6A6qy0iB4x5yfiSfARMEQEghojzTNALDTcv8En04qYNIco9/K9eZQ==}
@@ -10991,7 +10992,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.12': {}
 
-  '@github/copilot-darwin-arm64@1.0.88':
+  '@github/copilot-darwin-arm64@1.0.114':
     optional: true
 
   '@github/copilot-darwin-x64@1.0.88':
